@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="title desc">
+  <title id="title">吴昊强 · AoHanBei — 大模型应用开发</title>
+  <desc id="desc">模型网关、Agent 运行时与用户记忆。客户端经 ModelPort 调用模型供应商；Agent 另外通过记忆服务读写长期记忆。</desc>
+  <style>
+    .bg { fill: #f6f2ea; }
+    .rule { stroke: #1f1b17; }
+    .ink { fill: #1f1b17; }
+    .muted { fill: #6b6158; }
+    .accent { fill: #b8432b; }
+    .node { fill: #fffdf8; stroke: #cfc6b8; }
+    .node-key { fill: #fffdf8; stroke: #b8432b; }
+    .wire { stroke: #a89e90; fill: none; }
+    .wire-key { stroke: #b8432b; fill: none; }
+    .sans { font-family: "Inter", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", system-ui, sans-serif; }
+  </style>
+  <rect class="bg" width="1200" height="300" rx="14"/>
+  <line class="rule" x1="56" y1="58" x2="1144" y2="58" stroke-width="1.5"/>
+
+  <text class="accent sans" x="56" y="44" font-size="13" font-weight="600" letter-spacing="2">AOHANBEI · 作品集 aohanbei.github.io</text>
+
+  <text class="ink sans" x="56" y="140" font-size="52" font-weight="700" letter-spacing="-1">吴昊强</text>
+  <text class="ink sans" x="56" y="190" font-size="26" font-weight="500">大模型应用开发</text>
+  <text class="muted sans" x="56" y="232" font-size="17">模型网关 · Agent 运行时 · 用户记忆</text>
+  <rect class="accent" x="56" y="252" width="44" height="4" rx="2"/>
+
+  <g class="sans" font-size="14" font-weight="600">
+    <rect class="node" x="640" y="104" width="128" height="44" rx="8"/>
+    <text class="ink" x="704" y="131" text-anchor="middle">Claude Code</text>
+    <rect class="node" x="640" y="172" width="128" height="44" rx="8"/>
+    <text class="ink" x="704" y="199" text-anchor="middle">Agent / SDK</text>
+
+    <rect class="node-key" x="828" y="130" width="140" height="60" rx="10" stroke-width="1.5"/>
+    <text class="accent" x="898" y="157" text-anchor="middle">ModelPort</text>
+    <text class="muted" x="898" y="177" text-anchor="middle" font-size="11" font-weight="500">路由 · 幂等 · 结算</text>
+
+    <rect class="node" x="1020" y="92" width="112" height="40" rx="8"/>
+    <text class="ink" x="1076" y="117" text-anchor="middle">Anthropic</text>
+    <rect class="node" x="1020" y="140" width="112" height="40" rx="8"/>
+    <text class="ink" x="1076" y="165" text-anchor="middle">OpenAI</text>
+    <rect class="node" x="1020" y="196" width="112" height="44" rx="8"/>
+    <text class="ink" x="1076" y="216" text-anchor="middle">Memory</text>
+    <text class="muted" x="1076" y="232" text-anchor="middle" font-size="10" font-weight="500">双时态 · 可溯源</text>
+  </g>
+
+  <g stroke-width="1.5">
+    <path class="wire" d="M768 126 C 800 126, 800 152, 828 152"/>
+    <path class="wire" d="M768 194 C 800 194, 800 168, 828 168"/>
+    <path class="wire-key" d="M968 152 C 994 152, 994 112, 1020 112"/>
+    <path class="wire-key" d="M968 160 L 1020 160"/>
+    <path class="wire" stroke-dasharray="4 4" d="M768 206 C 870 252, 950 248, 1020 222"/>
+  </g>
+</svg>
